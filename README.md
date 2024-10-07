@@ -105,10 +105,10 @@ SQL is Structured Query Language. It's a special programming language that is us
 7. From ‘FROM’
 8. As ‘AS’
 
-### DATABASE
+# DATABASE
 -----------------------------------------------------
 Database is a collection of related information eg. phone book, shopping list, Todo list, facebook’s userbase.
-Databases can be stored in different ways – on paper, on a computer.
+Databases can be stored in different ways – on paper, on a computer. It's an organized collection of data that's stored and managed in a structured way to allow for easy access. retrievel and manipulation. 
 
 ### COMMANDS IN SQL AND MEANINGS
 -----------
@@ -119,8 +119,11 @@ Databases can be stored in different ways – on paper, on a computer.
 - HAVING CLAUSE: Is used to filter for multiple results in a given query.
 - UNION: Is used to append tables together in SQL. 
 - EQUALS TO: Means sub-query returning only one result.
-- AS: is used to label a column or to give a column name or alias. 
-- SET OPERATORS 
+- AS: is used to label a column or to give a column name or alias.
+- IDENTITY in sql is auto increasing the value. It's use to create auto increment.
+  
+  ### SET OPERATORS
+  ---------------------
 - Union – Is used to combine two columns from two tables but remove duplicate.
 - Union all – It used to combine two columns without removing duplicate.
 - Intersect – Picks what is common between the two tables.
@@ -128,11 +131,11 @@ Databases can be stored in different ways – on paper, on a computer.
 - Except – Picks what we have in Table A and not in table B.
 - DISTINCT: Is used to make a unique listing or use to make a distinguish value.
 
-  ### JOIN IN SQL
+  # JOIN IN SQL
   -------------------------------
    Join in sql is used when you want to join two or more columns together on the common column between the two of them.
   ---------------------------
-  ### TYPES OF JOIN
+  ## TYPES OF JOIN
 1. Self join
 2. Inner join- Is used to combine two tables together on the common column between them. Types of inner join- Inner join, left join, right join, full join
 3. Cross join
