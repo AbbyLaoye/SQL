@@ -6,27 +6,27 @@ SQL is Structured Query Language. It's a special programming language that is us
 ---
 [MEANING OF SQL](#meaning-of-sql)
  
- EXAMPLES OF RDBMS TOOLS
+ [EXAMPLES OF RDBMS TOOLS](#examples-of-rdbms-tools)
  
 [USES OF SQL](#uses-of-sql)
  
- DATABASE IN SQL
+ [DATABASE IN SQL](#database-in-sql)
  
- LANGUAGE IN SQL
+ [LANGUAGE IN SQL](#language-in-sql)
 
- SQL OPERATORS
+ [SQL OPERATORS](#sql-operators)
  
- COMMANDS IN SQL AND MEANINGS
+ [COMMANDS IN SQL AND MEANINGS](#commands-in-sql-and-meanings)
  
- JOIN IN SQL
+ [JOIN IN SQL](#join-in-sql)
  
- SQL KEYS
+ [SQL KEYS](#sql-keys)
  
- SQL CLAUSES
+ [SQL CLAUSES](#sql-causes)
  
- VIEW IN SQL
+ [VIEW IN SQL](#view-in-sql)
   
- SQL CASE WHEN STATEMENT
+ [SQL CASE WHEN STATEMENT](#sql-case-when-statement)
   
 ### EXAMPLES OF RDBMS TOOLS
 ---
