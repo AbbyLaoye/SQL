@@ -12,7 +12,7 @@ SQL is Structured Query Language. It's a special programming language that is us
  
  [DATABASE IN SQL](#database-in-sql)
  
- [LANGUAGE IN SQL](#language-in-sql)
+ [LANGUAGES IN SQL](#languages-in-sql)
 
  [SQL OPERATORS](#sql-operators)
  
