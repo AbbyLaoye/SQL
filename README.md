@@ -1,9 +1,9 @@
 # SQL
---------------------
+---
 SQL is Structured Query Language. It's a special programming language that is used to query out a specific information from a data base.  It's also a standard language that's use for storing, manipulating and retrieving of data from a data base. It's a standard language for Relational Database System, it enables a user relate databse and tables.
 
 ## TABLE OF CONTENTS
--------------------------
+---
  MEANING OF SQL
  
  EXAMPLES OF RDBMS TOOLS
@@ -29,7 +29,7 @@ SQL is Structured Query Language. It's a special programming language that is us
  SQL CASE WHEN STATEMENT
   
 ### EXAMPLES OF RDBMS TOOLS
----------------------------------
+---
 - SQL
 - ORACLE
 - POSTGRESQL
@@ -42,20 +42,20 @@ SQL is Structured Query Language. It's a special programming language that is us
 - MARIADB
 
 ### USES OF SQL
-------------
+---
 - SQL can be used to create tables.
 - It can be used to retrieve data from the database.
 - We can insert record, delete and create new tables and stock procedure.
   
 ### FOUR DATABASE IN SQL:
---------------------------------
+---
 -	Master
 -	Tempdb
 - Model
 - Msdb
   
 ### LANGUAGES IN SQL
---------------------------------
+---
 - DDL- Data Definition Language - It is used to create database.DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc. 
 All the command of DDL are auto-committed that means it permanently save all the changes in the databas. Different commends under DDL are
   
@@ -98,7 +98,7 @@ Statement (INSERT, DELETE and UPDATE only). It also allows statements to be grou
   5. Transaction
 
 ### SQL OPERATORS
-------------------------------------------
+---
 - Arithmetic Operators in sql	
 1. Addition ‘+’
 2. Subtraction  ‘-‘
@@ -138,11 +138,11 @@ Statement (INSERT, DELETE and UPDATE only). It also allows statements to be grou
 8. As ‘AS’
 
 # DATABASE
------------------------------------------------------
+---
 Database is a collection of related information eg. phone book, shopping list, Todo list, facebook’s userbase.
 Databases can be stored in different ways – on paper, on a computer. It's an organized collection of data that's stored and managed in a structured way to allow for easy access. retrievel and manipulation. 
 
-## Advantage of Databases:
+### Advantage of Databases:
 - Data Integrity: Ensures accuracy and consistency of data.
 - Security: Protects data from unauthorized access and breaches.
 - Backup and Recovery: Allows data to be recovered in case of loss or corruption.
@@ -152,7 +152,7 @@ Databases can be stored in different ways – on paper, on a computer. It's an o
 of information through queries
 
 ### COMMANDS IN SQL AND MEANINGS
------------
+---
 - SELECT: Is used to query out a result or information from the database.
 - GROUP BY: Is used to group an item together in a given query. It is used in aggregate operators.
 - IN: Means sub-query returning more than one result.
@@ -163,14 +163,14 @@ of information through queries
 - AS: is used to label a column or to give a column name or alias.
 - IDENTITY in sql is auto increasing the value. It's use to create auto increment.
   
-# JOIN IN SQL
----------------------------------
+### JOIN IN SQL
+---
 Join in sql is used when you want to join two or more columns together on the common
 column between the two of them. SQL JOIN means "to combine two or more tables". In SQL, 
 JOIN clause is used to combine the records from two or more 
 tables in a database.
-------------------------------
-  ## TYPES OF JOIN
+---
+### TYPES OF JOIN
 1. Self join
 2. Inner join- Is used to combine two tables together on the common column between them. Types of inner join- Inner join, left join, right join, full join
 3. Cross join
@@ -196,7 +196,7 @@ NULL on the place of matches not found.
 SELECT EMPLOYEE.EMP_NAME, PROJECT.DEPARTMENT FROM EMPLOYEE 
 
 ## SQL Set Operation
------------------------------------
+---
 SQL set operations allow you to combine the results of two or more SELECT queries. These operations treat the result sets 
 of each query as mathematical sets, enabling you to perform set operations like union, intersection, and difference on them. 
 SQL provides the following set operations.
@@ -216,7 +216,7 @@ Combines the results of two or more SELECT queries but does not remove duplicate
 • It has no duplicates, and it arranges the data in ascending order by default.
 
 ### SET OPERATORS
-  ---------------------
+  ---
 - Union – Is used to combine two columns from two tables but remove duplicate.
 - Union all – It used to combine two columns without removing duplicate.
 - Intersect – Picks what is common between the two tables.
@@ -226,7 +226,7 @@ Combines the results of two or more SELECT queries but does not remove duplicate
 
    
 ### SQL DATATYPES
--------------------------
+---
 - SQL data types is defined as the type of value that can be stored in a table column. For example, if you want a column to store only integer values, you can define its data type as INT. SQL data types can be broadly divided into the following categories.
   
 1. Numeric data types such as: INT, TINYINT, BIGINT, FLOAT, REAL, etc.
@@ -237,7 +237,7 @@ Combines the results of two or more SELECT queries but does not remove duplicate
 6. Miscellaneous data types - CLOB, BLOB, XML, CURSOR, TABLE, etc.
 
 ### SQL KEYS 
----------------------------
+---
 - In SQL, Keys are special fields in a table that help:
 ✓ Create relationships between tables,
 ✓ Maintain uniqueness 
@@ -270,7 +270,7 @@ Alternate key is a candidate key, currently not selected as a primary key of the
 Example: License_Number and Passport_Numbers
 
 ### SQL CLAUSES
-------------------------------------
+---
 SQL clauses are essential components of SQL (Structured Query Language) that define how queries interact with the 
 database. They are used to specify conditions, modify data, and control how results are returned. Here’s an overview of 
 some of the most common SQL clauses.
@@ -288,8 +288,8 @@ Order BY
 • The ORDER BY clause sorts the result-set in ascending or descending order. 
 • It sorts the records in ascending order by default. DESC keyword is used to sort the records in descending order
 
-## VIEW IN SQL 
----------------------------
+### VIEW IN SQL 
+---
 An SQL View is a virtual table that is created based on the result set of a SQL query. Unlike a regular table, a view does not 
 store data itself; instead, it dynamically retrieves data from one or more underlying tables whenever the view is queried.
 ✓ A view behaves like a table in SQL, allowing you to select, update, insert, and delete data (with some limitations).
@@ -303,8 +303,8 @@ Simplicity
 simple table.
 ✓ This is particularly useful in applications where complex logic needs to be reused
 
-## SQL CASE WHEN STATEMENT
---------------------------------------
+### SQL CASE WHEN STATEMENT
+---
 The CASE WHEN statement in SQL is a conditional expression that allows you to create different outputs based on certain 
 conditions. It is similar to the IF-THEN-ELSE logic in programming languages.
 This statement is often used to implement logic directly within SQL queries, making them more dynamic and adaptable to 
