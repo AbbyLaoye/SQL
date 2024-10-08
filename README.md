@@ -4,11 +4,11 @@ SQL is Structured Query Language. It's a special programming language that is us
 
 ## TABLE OF CONTENTS
 ---
- MEANING OF SQL
+[MEANING OF SQL](#meaning-of-sql)
  
  EXAMPLES OF RDBMS TOOLS
  
- USES OF SQL
+[USES OF SQL](#uses-of-sql)
  
  DATABASE IN SQL
  
@@ -169,6 +169,7 @@ Join in sql is used when you want to join two or more columns together on the co
 column between the two of them. SQL JOIN means "to combine two or more tables". In SQL, 
 JOIN clause is used to combine the records from two or more 
 tables in a database.
+
 ---
 ### TYPES OF JOIN
 1. Self join
@@ -310,6 +311,7 @@ conditions. It is similar to the IF-THEN-ELSE logic in programming languages.
 This statement is often used to implement logic directly within SQL queries, making them more dynamic and adaptable to 
 different scenarios.
 
+```SQL
 SELECT 
  product_name,
  CASE category_id
@@ -323,6 +325,7 @@ In this example, the CASE statement checks the category_id of each product and r
 name. 
 If category_id is 1, it returns 'Electronics’;
 if 2, it returns 'Furniture’; 
+```
 and so on.
 
  - Flexibility: 
